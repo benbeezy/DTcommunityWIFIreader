@@ -22,3 +22,8 @@ In this picture you can see everything happening inside the board. It's not supe
 Here you can see the front of the board as it would really look. You can tell that the easter eggs are not visible in the rendering, but they are faintly in person on the real boards.
 ![Back of the board](images/back.png)
 The back is basic, has a QR code to the inital forum post and tries to tell you everything you need to know about the board
+
+## Parts list
+1) [esp8266 D1 mini](https://www.amazon.com/AITRIP-NodeMcu-Internet-Development-Compatible/dp/B08C7FYM5T/ref=sr_1_3?crid=HAV3ULNUT1Y2&keywords=d1+mini&qid=1662158264&sprefix=d1+mini%2Caps%2C164&sr=8-3)
+2) [pn532 nfc reader](https://www.amazon.com/HiLetgo-Communication-Arduino-Raspberry-Android/dp/B01I1J17LC/ref=sr_1_3?crid=38TIEZ6BNQYL7&keywords=pn532&qid=1662158379&sprefix=pn532%2Caps%2C119&sr=8-3)
+3) If you are not working with 5v you will need [a DC-DC converter ](https://www.amazon.com/MP1584EN-DC-DC-Converter-Adjustable-Module/dp/B01MQGMOKI/ref=sr_1_37?crid=2YRBOG5B0VW6J&keywords=dc-dc&qid=1662157347&sprefix=dc-dc%2Caps%2C112&sr=8-37&th=1) the board is designed for this one.
