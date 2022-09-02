@@ -1,0 +1,155 @@
+{
+  "uuid": "c6e8a32c8bf95d739723ff8773850543",
+  "path": "Offline/8266%20NFC%20reader",
+  "name": "8266 NFC reader",
+  "content": "",
+  "created_at": "2022-09-02 02:36:56",
+  "updated_at": "2022-09-02 11:20:57",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e80e1b746406b39094ca8044490f6c63",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f160f1d9d96d4b0584a1e2e22962e4c8": 1,
+        "4bd464e82e6d42e997ab76ace6f6ccd3": 1,
+        "baae9fa8b17b4747bac36d31655279b9": 1,
+        "3a42aaba02d749ac88dd68f1c9ae4262": 1,
+        "bc3add47d4474f29b13acc97e6cf994a": 1,
+        "2357b35431cc4cc39e74223546cead49": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "extra led headers",
+          1,
+          "PIN HEADERS 1X3 P P=2.54MM DROIT M",
+          "1",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "abf0440507f84c5b8a89bd76f85ac22f",
+            "uuid": "2357b35431cc4cc39e74223546cead49"
+          }
+        ],
+        [
+          "BUZZER",
+          1,
+          "BUZ-TH_BD12.0-P6.00-D0.9-RD",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900014030",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "buzzer",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2739dcdf8a8e413a8b48191b26682f31",
+            "uuid": "baae9fa8b17b4747bac36d31655279b9"
+          }
+        ],
+        [
+          "Elechouse RFID V3",
+          1,
+          "RFID READER PN532 ELECHOUSE",
+          "U1",
+          {
+            "BOM_Manufacturer": "Elechouse",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a946ebd6475545efaec5fc4d5959b22a",
+            "uuid": "f160f1d9d96d4b0584a1e2e22962e4c8"
+          }
+        ],
+        [
+          "WS2812B-5050RGB",
+          1,
+          "LED-SMD_4P-L5.0-W5.0-BR_WS2812B-5050RGB",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2838584",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "WS2812B-5050RGB",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9b383d81b26c44e4be134c2d1ba97009",
+            "uuid": "4bd464e82e6d42e997ab76ace6f6ccd3"
+          }
+        ],
+        [
+          "ESP8266 D1 Mini",
+          1,
+          "ESP8266 D1 MINI",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "94645ad6865442818d085af6d93091a3",
+            "uuid": "3a42aaba02d749ac88dd68f1c9ae4262"
+          }
+        ],
+        [
+          "power headers",
+          1,
+          "1X2 HEADERS 2.54MM PITCH",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "7106",
+            "puuid": "1b7add812ec14286ad6365e193c05b05",
+            "uuid": "bc3add47d4474f29b13acc97e6cf994a"
+          }
+        ]
+      ],
+      "updateTime": 1662134395,
+      "createTime": 1662107817,
+      "histories": [],
+      "created_at": "2022-09-02 02:36:57",
+      "updated_at": "2022-09-02 09:59:55"
+    },
+    {
+      "uuid": "6c3ad23cc713ea7e457c9139fec7fa20",
+      "puuid": "c6e8a32c8bf95d739723ff8773850543",
+      "title": "PCB_8266 NFC reader",
+      "filename": "PCB_8266 NFC reader.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "abf0440507f84c5b8a89bd76f85ac22f": 1,
+        "1b7add812ec14286ad6365e193c05b05": 1,
+        "a946ebd6475545efaec5fc4d5959b22a": 1,
+        "9b383d81b26c44e4be134c2d1ba97009": 1,
+        "94645ad6865442818d085af6d93091a3": 1,
+        "2739dcdf8a8e413a8b48191b26682f31": 1
+      },
+      "BOM": [],
+      "updateTime": 1662139257,
+      "createTime": 1662109312,
+      "histories": [],
+      "created_at": "2022-09-02 03:01:52",
+      "updated_at": "2022-09-02 11:20:57"
+    }
+  ],
+  "sort": [],
+  "title": "8266 NFC reader",
+  "foldername": "8266 NFC reader",
+  "schfilename": "8266 NFC reader.json",
+  "schfilemtime": 1662134395372
+}
