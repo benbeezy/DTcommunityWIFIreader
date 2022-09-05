@@ -27,3 +27,9 @@ The back is basic, has a QR code to the inital forum post and tries to tell you 
 1) [esp8266 D1 mini](https://www.amazon.com/AITRIP-NodeMcu-Internet-Development-Compatible/dp/B08C7FYM5T/ref=sr_1_3?crid=HAV3ULNUT1Y2&keywords=d1+mini&qid=1662158264&sprefix=d1+mini%2Caps%2C164&sr=8-3)
 2) [pn532 nfc reader](https://www.amazon.com/HiLetgo-Communication-Arduino-Raspberry-Android/dp/B01I1J17LC/ref=sr_1_3?crid=38TIEZ6BNQYL7&keywords=pn532&qid=1662158379&sprefix=pn532%2Caps%2C119&sr=8-3)
 3) If you are not working with 5v you will need [a DC-DC converter ](https://www.amazon.com/MP1584EN-DC-DC-Converter-Adjustable-Module/dp/B01MQGMOKI/ref=sr_1_37?crid=2YRBOG5B0VW6J&keywords=dc-dc&qid=1662157347&sprefix=dc-dc%2Caps%2C112&sr=8-37&th=1) the board is designed for this one.
+
+##software
+1) use this https://web.esphome.io/ link when your board is plugged in and using chrome.
+2) flash your board with the basic prepare for adoption code.
+3) Open esp home and adopt it.
+4) flash the nfc reader code over wifi
