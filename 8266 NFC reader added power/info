@@ -1,0 +1,171 @@
+{
+  "uuid": "44571351531512c2eed591d1950a8de7",
+  "path": "Offline/8266%20NFC%20reader%20added%20power",
+  "name": "8266 NFC reader added power",
+  "content": "",
+  "created_at": "2022-09-02 15:03:38",
+  "updated_at": "2022-09-17 00:50:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b165d19bc7b9c2d75459970757db6414",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4bd464e82e6d42e997ab76ace6f6ccd3": 1,
+        "baae9fa8b17b4747bac36d31655279b9": 1,
+        "3a42aaba02d749ac88dd68f1c9ae4262": 1,
+        "bc3add47d4474f29b13acc97e6cf994a": 1,
+        "2357b35431cc4cc39e74223546cead49": 1,
+        "66621c3450ed4915a084315ca9e390c8": 1,
+        "4e21a6dc4189445fb8e9fc14726d1c19": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "extra led headers",
+          1,
+          "PIN HEADERS 1X3 P P=2.54MM DROIT M",
+          "1",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "abf0440507f84c5b8a89bd76f85ac22f",
+            "uuid": "2357b35431cc4cc39e74223546cead49"
+          }
+        ],
+        [
+          "BUZZER",
+          1,
+          "BUZ-TH_BD12.0-P6.00-D0.9-RD",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900014030",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "buzzer",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2739dcdf8a8e413a8b48191b26682f31",
+            "uuid": "baae9fa8b17b4747bac36d31655279b9"
+          }
+        ],
+        [
+          "WS2812B-5050RGB",
+          1,
+          "LED-SMD_4P-L5.0-W5.0-BR_WS2812B-5050RGB",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2838584",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "WS2812B-5050RGB",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9b383d81b26c44e4be134c2d1ba97009",
+            "uuid": "4bd464e82e6d42e997ab76ace6f6ccd3"
+          }
+        ],
+        [
+          "ESP8266 D1 Mini",
+          1,
+          "ESP8266 D1 MINI",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "94645ad6865442818d085af6d93091a3",
+            "uuid": "3a42aaba02d749ac88dd68f1c9ae4262"
+          }
+        ],
+        [
+          "power headers",
+          1,
+          "1X2 HEADERS 2.54MM PITCH",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "7106",
+            "puuid": "1b7add812ec14286ad6365e193c05b05",
+            "uuid": "bc3add47d4474f29b13acc97e6cf994a"
+          }
+        ],
+        [
+          "eBoot Mini MP1584EN DC-DC Buck Converter Adjustable Power Supply Module 24V to 12V 9V 5V 3V",
+          1,
+          "DC-DC BUCK CONVERTER",
+          "U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "6f08a62e50f249f98b2d75108c0abe3e",
+            "uuid": "66621c3450ed4915a084315ca9e390c8"
+          }
+        ],
+        [
+          "PN532 NFC MODULE V3.",
+          1,
+          "PN532 WITH HOLES MARKED",
+          "U6",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "0b43d0ef30bf498e88dd9d0e8671243a",
+            "uuid": "4e21a6dc4189445fb8e9fc14726d1c19"
+          }
+        ]
+      ],
+      "updateTime": 1662155059,
+      "createTime": 1662152618,
+      "histories": [],
+      "created_at": "2022-09-02 15:03:38",
+      "updated_at": "2022-09-02 15:44:19"
+    },
+    {
+      "uuid": "ee07f3ab879313882dc20b42728f17b4",
+      "puuid": "44571351531512c2eed591d1950a8de7",
+      "title": "PCB",
+      "filename": "PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "94645ad6865442818d085af6d93091a3": 1,
+        "2739dcdf8a8e413a8b48191b26682f31": 1,
+        "6f08a62e50f249f98b2d75108c0abe3e": 1,
+        "abf0440507f84c5b8a89bd76f85ac22f": 1,
+        "9b383d81b26c44e4be134c2d1ba97009": 1,
+        "1b7add812ec14286ad6365e193c05b05": 1,
+        "0b43d0ef30bf498e88dd9d0e8671243a": 1
+      },
+      "BOM": [],
+      "updateTime": 1663397413,
+      "createTime": 1662152707,
+      "histories": [],
+      "created_at": "2022-09-02 15:05:07",
+      "updated_at": "2022-09-17 00:50:13"
+    }
+  ],
+  "sort": [],
+  "title": "8266 NFC reader added power",
+  "foldername": "8266 NFC reader added power",
+  "schfilename": "8266 NFC reader added power.json",
+  "schfilemtime": 1662155060015
+}
