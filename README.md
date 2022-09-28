@@ -30,6 +30,5 @@ The back is basic, has a QR code to the inital forum post and tries to tell you 
 
 ## Software
 1) use this https://web.esphome.io/ link when your board is plugged in and using chrome.
-2) flash your board with the basic prepare for adoption code.
-3) Open esp home and adopt it.
-4) flash the nfc reader code over wifi
+2) flash your board with [this firmware](https://github.com/benbeezy/DTcommunityWIFIreader/raw/main/tagreader-factory.bin)
+3) Adopt in home-assistant
