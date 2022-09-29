@@ -2,7 +2,8 @@
 This is a community built board that helps make use of NFC implants. The inital design was made with Home Assistant in mind and follows [this previouse project](https://github.com/adonno/tagreader). This repo is more for board designs and optomising the readers to work best with implanted devices.
 
 Converstaion was started over on [forum.dangerousthings.com](https://forum.dangerousthings.com/t/rfid-usb-reader-with-home-assistant/16268)
-
+## Setup guide
+[Youtube video](https://www.youtube.com/watch?v=GUHBoXlPUbg)
 ## How to make the boards your self
 Anyone can take the Gerber zip file and sent it off to just about any PCB fab. I have used JLCPCB in the past and it worked out great. But I know some fabs are local and give much better shipping times/rates.
 
