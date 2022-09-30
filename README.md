@@ -26,7 +26,11 @@ The back is basic, has a QR code to the inital forum post and tries to tell you 
 
 ## Parts list
 1) [esp8266 D1 mini](https://www.amazon.com/AITRIP-NodeMcu-Internet-Development-Compatible/dp/B08C7FYM5T/ref=sr_1_3?crid=HAV3ULNUT1Y2&keywords=d1+mini&qid=1662158264&sprefix=d1+mini%2Caps%2C164&sr=8-3)
-2) [pn532 nfc reader](https://www.amazon.com/HiLetgo-Communication-Arduino-Raspberry-Android/dp/B01I1J17LC/ref=sr_1_3?crid=38TIEZ6BNQYL7&keywords=pn532&qid=1662158379&sprefix=pn532%2Caps%2C119&sr=8-3)
+2) Multiple reader options, you only need to pick one
+    - [pn532 nfc reader v3](https://www.amazon.com/HiLetgo-Communication-Arduino-Raspberry-Android/dp/B01I1J17LC/ref=sr_1_3?crid=38TIEZ6BNQYL7&keywords=pn532&qid=1662158379&sprefix=pn532%2Caps%2C119&sr=8-3)
+    - [pn532 nfc reader v4, better read range](https://www.elechouse.com/product/pn532-nfc-rfid-module-v4/)
+    - [pn532 with external antenna, best possible read range](https://www.elechouse.com/product/pn532-nfc-evolution-v1/)
+    - [RFID reader](https://www.amazon.com/NOYITO-Reader-RDM6300-Control-Arduino/dp/B07CBT4LJN/ref=sr_1_1?crid=2NGCFBQNMOW35&keywords=rdm6300&qid=1664530482&qu=eyJxc2MiOiIyLjUxIiwicXNhIjoiMi4zMyIsInFzcCI6IjIuMDAifQ%3D%3D&sprefix=rdm6300%2Caps%2C135&sr=8-1)
 3) If you are not working with 5v you will need [a DC-DC converter ](https://www.amazon.com/MP1584EN-DC-DC-Converter-Adjustable-Module/dp/B01MQGMOKI/ref=sr_1_37?crid=2YRBOG5B0VW6J&keywords=dc-dc&qid=1662157347&sprefix=dc-dc%2Caps%2C112&sr=8-37&th=1) the board is designed for this one.
 
 ## Software
